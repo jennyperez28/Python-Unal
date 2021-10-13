@@ -1,0 +1,8 @@
+x0=input() # Dada en metros
+v0=input()  # Dada en Km/h
+a=input()  #Dada en m/s2
+t=input()   # Dado en s
+x=float(x0)+(float(v0)/3.6)*float(t)+(1/2)*float(a)*float(t)**2   # sale en metros
+v=float(v0)+((float(a)*12960)*(float(t)/3600))    # sale en Km/h
+print(f"La posición final es {x: .2f}m y la velocidad es {v: .3f} km/h")
+
