@@ -1,0 +1,25 @@
+v = input('Tamales vendidos: ') #ventas
+monto_ingredientes = int(v)*3   #costo de los ingredientes
+mv = int(v)*5  #monto de las ventas
+gv = int(mv)-int(monto_ingredientes) #ganancia de las ventas, ganancias finales
+g_indi = int(gv)//7
+g_sobra = int(gv)/7
+monto_sobrante = float(g_sobra)-float(g_indi)
+print(monto_ingredientes)
+print(monto_sobrante)
+print(g_indi)
+
+v = input()
+monto_ingredientes = int(v)*3
+mv = int(v)*5 
+gv = int(mv)-int(monto_ingredientes) 
+monto_sobrante = int(gv)%7
+print(monto_ingredientes)
+print(monto_sobrante)
+
+
+ventas = input()
+monto_integrante=int((int(ventas)*5)-int(int(ventas)*3))//7
+monto_sobrante = int((int(ventas)*5)-int(int(ventas)*3))%7
+print(monto_integrante)
+print(monto_sobrante)
