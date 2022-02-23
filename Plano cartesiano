@@ -1,0 +1,8 @@
+x=float(input())
+y=float(input())
+w=float(input())
+h=float(input())
+px=float(input())
+py=float(input())
+((x<=px) and (px<=(x+w)) and (y<=py) and (py<=(y+h)))
+# este código permite verificar si un punto de coordenadas px,py está dentro de un rectángulo  en el plano caretesiano.#
